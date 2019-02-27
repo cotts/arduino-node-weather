@@ -20,5 +20,5 @@ app.post('/', function(req,res){
 });
 
 app.get('/', function(req,res){
-    res.send(JSON.stringify(weather));
+    res.json(weather);
 });
